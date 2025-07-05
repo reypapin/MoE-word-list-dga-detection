@@ -1,0 +1,42 @@
+{
+  "timestamp": "20250618_164352",
+  "model_type": "FANCI Random Forest",
+  "sklearn_version": "1.3+",
+  "feature_names": [
+    "alphabet_cardinality",
+    "contains_digits",
+    "contains_ip_address",
+    "contains_single_char_subdomain",
+    "contains_tld_as_subdomain",
+    "digit_ratio",
+    "domain_length",
+    "entropy",
+    "has_valid_tld",
+    "has_www_prefix",
+    "is_exclusive_prefix_repetition",
+    "ngram_max",
+    "ngram_mean",
+    "ngram_median",
+    "ngram_min",
+    "ngram_q25",
+    "ngram_q75",
+    "ngram_std",
+    "num_subdomains",
+    "ratio_consecutive_consonants",
+    "ratio_consecutive_digits",
+    "ratio_digit_exclusive_subdomains",
+    "ratio_hex_exclusive_subdomains",
+    "ratio_repeated_characters",
+    "subdomain_length_mean",
+    "underscore_ratio",
+    "vowel_ratio"
+  ],
+  "is_trained": true,
+  "rf_params": {
+    "n_estimators": 785,
+    "max_features": 18,
+    "criterion": "gini",
+    "random_state": 42
+  },
+  "file_size_mb": 396.6
+}

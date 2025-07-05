@@ -1,0 +1,8 @@
+{
+  "timestamp": "20250618_164818",
+  "model_type": "FANCI Random Forest",
+  "drive_path": "/content/drive/MyDrive/Modelos_ML/fanci_dga_detector_20250618_164818.joblib",
+  "accuracy": "73%",
+  "feature_count": 27,
+  "file_size_mb": 396.6
+}

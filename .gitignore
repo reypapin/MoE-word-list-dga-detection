@@ -73,40 +73,41 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Machine Learning
+# Machine Learning - Large generic files only
 *.h5
 *.hdf5
-*.pkl
-*.pickle
-*.joblib
-*.pth
-*.pt
-*.ckpt
 *.pb
 *.tflite
 *.onnx
-*.keras
-*.safetensors
-*.bin
-*.model
-*.json
-*.txt
-*.vocab
-*.tokenizer
-*.spm
-*.bpe
 
-# Data files
-*.csv
-*.tsv
-*.json
-*.parquet
-*.feather
-*.xlsx
-*.xls
-*.sqlite
-*.db
-*.sql
+# Allow small model files in Models directory
+!Models/**/*.pkl
+!Models/**/*.pickle
+!Models/**/*.pt
+!Models/**/*.ckpt
+!Models/**/*.bin
+!Models/**/*.model
+!Models/**/*.json
+!Models/**/*.txt
+!Models/**/*.vocab
+!Models/**/*.tokenizer
+!Models/**/*.spm
+!Models/**/*.bpe
+
+# Exclude large model files (>100MB) - use GitHub Releases
+Models/**/model.safetensors
+Models/**/*.joblib
+Models/**/*.keras
+Models/**/*.pth
+
+# Data files - Allow training data
+!train_wl.csv
+!Result_csv/*.csv
+
+# Block large data files
+**/data/*.csv
+**/datasets/*.csv
+temp_*.csv
 
 # Large files
 *.gz
