@@ -99,7 +99,6 @@ Actionable recommendations for expert selection in production MoE systems, inclu
 | Gemma 3B | 82.1% | 75.3% | 650ms | 1.5k/s |
 | Llama 3.2 3B | 81.4% | 74.8% | 680ms | 1.4k/s |
 | CNN | 78.9% | 72.1% | 15ms | 66k/s |
-| Random Forest | 75.2% | 68.4% | 5ms | 200k/s |
 
 ## 📊 Evaluation Protocol
 
