@@ -153,16 +153,7 @@ The training dataset (`train_wl.csv`) contains:
 
 ## 📚 Citation
 
-If you use this work in your research, please cite:
-
-```bibtex
-@inproceedings{leyva2024specialized,
-  title={Specialized Expert Models for Wordlist-Based DGA Detection: A Mixture of Experts Approach},
-  author={Leyva La O, Reynier and Gonzalez, Rodrigo and Catania, Carlos A.},
-  booktitle={CACIC 2025},
-  year={2024}
-}
-```
+This work is currently under review and will be updated with citation information once published.
 
 ## 🤝 Contributing
 
