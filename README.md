@@ -57,6 +57,7 @@ MoE-word-list-dga-detection/
 │   ├── CNN_Patron_WL.ipynb                     # CNN Wordlist
 │   ├── FANCI.ipynb                             # FANCI Random Forest
 │   ├── Labin_wl.ipynb                          # LABin
+│   ├── Charbot.ipynb                           # Generate CharBot
 │   └── README.md                               # Notebook usage guide
 │
 ├── Result_csv/                # Aggregated performance metrics (7 CSV files)
