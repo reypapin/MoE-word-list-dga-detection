@@ -80,25 +80,27 @@ dmypy.json
 *.tflite
 *.onnx
 
-# Allow small model files in Models directory
-!Models/**/*.pkl
-!Models/**/*.pickle
-!Models/**/*.pt
-!Models/**/*.ckpt
-!Models/**/*.bin
-!Models/**/*.model
-!Models/**/*.json
-!Models/**/*.txt
-!Models/**/*.vocab
-!Models/**/*.tokenizer
-!Models/**/*.spm
-!Models/**/*.bpe
+# ============================================================================
+# MODELS DIRECTORY - All models hosted on HuggingFace
+# ============================================================================
+# Exclude ALL model files and directories from Git
+# Models are available at: https://huggingface.co/Reynier/moe-wordlist-dga-models
+Models/*/
+!Models/README.md
 
-# Exclude large model files (>100MB) - use GitHub Releases
-Models/**/model.safetensors
+# Specific model file patterns (backup exclusions)
+Models/**/*.safetensors
 Models/**/*.joblib
 Models/**/*.keras
 Models/**/*.pth
+Models/**/*.pkl
+Models/**/*.pickle
+Models/**/*.bin
+Models/**/*.model
+Models/**/*.pt
+Models/**/*.ckpt
+Models/**/*.h5
+Models/**/*.hdf5
 
 # Data files - Allow training data
 !train_wl.csv
