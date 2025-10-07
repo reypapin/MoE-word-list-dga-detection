@@ -1,6 +1,7 @@
 # Training & Evaluation Notebooks
 
 This directory contains Jupyter notebooks for training, evaluating, and comparing the seven expert models for wordlist-based DGA detection.
+It also includes a generator for CharBot-family domains used for adversarial evaluation.
 
 ---
 
@@ -28,6 +29,7 @@ Notebook/
 ├── CNN_Patron_WL.ipynb                # Train CNN model (27 KB)
 ├── FANCI.ipynb                         # Train FANCI RF (581 KB)
 └── Labin_wl.ipynb                      # Train LABin hybrid (70 KB)
+└── Charbot.ipynb                      # Generate CharBot-family domains (13 KB)
 ```
 
 **Total Size:** ~1.7 MB
@@ -220,6 +222,27 @@ Notebook/
 - Training time: ~1 hour on T4 GPU
 
 ---
+
+#### **CharBot_Domain_Generator.ipynb**
+
+**Purpose:** Generate adversarial domains that mimic the *CharBot* DGA family for testing model robustness.
+
+**Key Features:**
+- Implements Algorithm 1 from the paper *“CharBot: A Simple and Effective Method for Evading DGA Classifiers”*
+- Randomly substitutes two characters in the SLD of benign domains
+- Uses a controlled TLD whitelist for realistic domain formation
+- Reproducible results via fixed random seeds
+- Includes optional NXDomain validation (via `dnspython`)
+
+**Usage Example:**
+```python
+# Load benign domain list (e.g., Tranco top domains)
+# Generate 10K CharBot domains
+charbot_domains = charbot_batch(benign_list, n_samples=10000, seed=20250201)
+```
+---
+
+
 
 ## 🚀 Quick Start
 
