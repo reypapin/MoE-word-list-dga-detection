@@ -111,8 +111,8 @@ Models/**/*.hdf5
 **/datasets/*.csv
 temp_*.csv
 
-# Large files
-*.gz
+# Large files (temporarily allowing .gz for datasets)
+# *.gz
 *.zip
 *.tar
 *.rar
