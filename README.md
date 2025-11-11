@@ -357,16 +357,17 @@ print(f"Unknown F1: {results['unknown_f1']:.4f}")
 
 ## 📝 Citation
 
-This work is currently **under review**. Pre-print available in this repository ([LATAM_DGA_Detector-33.pdf](LATAM_DGA_Detector-33.pdf)).
+his work has been **conditionally accepted** for publication in *IEEE Latin America Transactions*.
 
 If you use this code, models, or datasets in your research, please cite:
 
 ```bibtex
 @article{leyva2025expert,
-  title={Expert Selection for Wordlist-Based DGA Detection: A Systematic Evaluation},
+  title={Expert Selection for Wordlist-Based DGA Detection},
   author={Leyva La O, Reynier and Catania, Carlos A. and Gonzalez, Rodrigo},
-  journal={Under Review},
-  year={2025}
+  journal={IEEE Latin America Transactions},
+  year={2025},
+  note={Accepted for publication}
 }
 ```
 
