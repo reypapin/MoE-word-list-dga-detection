@@ -357,7 +357,7 @@ print(f"Unknown F1: {results['unknown_f1']:.4f}")
 
 ## 📝 Citation
 
-his work has been **conditionally accepted** for publication in *IEEE Latin America Transactions*.
+This work has been **conditionally accepted** for publication in *IEEE Latin America Transactions*.
 
 If you use this code, models, or datasets in your research, please cite:
 
@@ -367,10 +367,9 @@ If you use this code, models, or datasets in your research, please cite:
   author={Leyva La O, Reynier and Catania, Carlos A. and Gonzalez, Rodrigo},
   journal={IEEE Latin America Transactions},
   year={2025},
-  note={Accepted for publication}
+  note={Accepted for publication, Submission ID: 10036}
 }
 ```
-
 ---
 
 ## 🤝 Contributing
