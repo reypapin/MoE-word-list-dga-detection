@@ -357,17 +357,20 @@ print(f"Unknown F1: {results['unknown_f1']:.4f}")
 
 ## 📝 Citation
 
-This work has been **conditionally accepted** for publication in *IEEE Latin America Transactions*.
+This work has been published in *IEEE Latin America Transactions*.
 
 If you use this code, models, or datasets in your research, please cite:
 
 ```bibtex
-@article{leyva2025expert,
-  title={Expert Selection for Wordlist-Based DGA Detection},
-  author={Leyva La O, Reynier and Catania, Carlos A. and Gonzalez, Rodrigo},
-  journal={IEEE Latin America Transactions},
-  year={2025},
-  note={Accepted for publication, Submission ID: 10036}
+@article{leyva2026expert,
+  title   = {Expert Selection for Wordlist-Based DGA Detection},
+  author  = {Leyva La O, Reynier and Catania, Carlos A. and Gonzalez, Rodrigo},
+  journal = {IEEE Latin America Transactions},
+  volume  = {24},
+  number  = {1},
+  pages   = {33--42},
+  year    = {2026},
+  url     = {https://latamt.ieeer9.org/index.php/transactions/article/view/10036}
 }
 ```
 ---
